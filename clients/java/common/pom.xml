@@ -4,14 +4,14 @@
     <parent>
         <groupId>com.wgtwo.api</groupId>
         <artifactId>common-pom</artifactId>
-        <version>1.0</version>
+        <version>1.1-SNAPSHOT</version>
         <relativePath>../../../pom.xml</relativePath>
     </parent>
 
     <name>${project.groupId} Common</name>
     <artifactId>common</artifactId>
     <packaging>jar</packaging>
-    <version>0.0.2</version>
+    <version>0.0.3-SNAPSHOT</version>
 
     <properties>
         <maven.deploy.skip>false</maven.deploy.skip>
@@ -44,6 +44,6 @@
 
 
   <scm>
-    <tag>common-v1.0</tag>
+    <tag>common-0.0.2</tag>
   </scm>
 </project>
